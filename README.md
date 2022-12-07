@@ -49,15 +49,15 @@ The interpolation draws a line connecting all of our points, but this signal req
   
 # Building the Code
 
-Navigate to the [Stray](/Stray/) folder. Select the version of the project you want to build ([Most Recent](/Stray/1_0/)) and navigate to that directory. Each version's directory contains the following:
+Navigate to the [Stray](/Stray/) folder. Select the version of the project you want to build ([Most Recent](/Stray/1_1/)) and navigate to that directory. Each version's directory contains the following:
 * FaustDSP
   * A single Faust (.dsp) file 
 * JuceProject
   * Source code (.cpp) and a Juce project (.jucer) file
 * builds
-  * Currently only contains a standalone .app file
-    * The standalone version is exclusive to Mac computers
-    * VST version will be added soon, pending testing on other devices and troubles with uploading the .vst file to the repository
+  * Contains Standalone (.app) and VST (.vst3) 
+  * Standalone is Mac only
+  * The VST currently only seems to function on Mac as well, this will be addressed
     
 ## Running the Faust (.dsp) file
 Faust can be used in a variety of ways ([Faust Downloads](https://faust.grame.fr/downloads/)), but the easiest and fastest way is through the [online IDE](https://faustide.grame.fr)
