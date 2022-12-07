@@ -56,8 +56,7 @@ Navigate to the [Stray](/Stray/) folder. Select the version of the project you w
   * Source code (.cpp) and a Juce project (.jucer) file
 * builds
   * Contains Standalone (.app) and VST (.vst3) 
-  * Standalone is Mac only
-  * The VST currently only seems to function on Mac as well, this will be addressed
+  * Currently the provided files are exclusive to Mac. If you wish to use the VST on a Windows or Linux machine, follow the "Building the Juce Project" instructions
     
 ## Running the Faust (.dsp) file
 Faust can be used in a variety of ways ([Faust Downloads](https://faust.grame.fr/downloads/)), but the easiest and fastest way is through the [online IDE](https://faustide.grame.fr)
