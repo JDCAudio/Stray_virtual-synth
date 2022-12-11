@@ -6,12 +6,12 @@ For an in depth explanation of how Stray works, click [here](/HowItWorks.md)
 # Downloading Stray
 Builds provided in this repository are compatible only with MacOS. For a standalone or VST version compatible with Windows or Linux, see directions for [Building the Juce Project](/BuildInfo.md#building-the-juce-project). Alternatively, to run and test the code within a browser, see [here](/BuildInfo.md#running-the-faust-dsp-file) how to run the Faust (.dsp) file.
 
-# Sound Demo
--- Sound Demo Video to be added here --
-
 * For MacOS
-  * Download the latest standalone version [here](/Stray/1_1/builds/stray_1_1.app)
-  * Download the latest VST3 version [here](/Stray/1_1/builds/stray_1_1.vst3)
+  * Download the latest standalone version [here](/Stray/1_2/builds/stray_1_2.app)
+  * Download the latest VST3 version [here](/Stray/1_2/builds/stray_1_2.vst3)
+  
+# Sound Demo
+-- Sound Demo Video to be added here --  
 
 # Structure of this Repository
 * [FaustTests](/FaustTests)
@@ -25,12 +25,12 @@ Builds provided in this repository are compatible only with MacOS. For a standal
   * Contains a single file of links used for personal reference while working on this project
 * [Stray](/Stray)
   * Contains a folder for each release version of Stray. The structure of the most current version is as follows:
-  * [1_1](/Stray/1_1)
-    * [FaustDSP](/Stray/1_1/FaustDSP)
+  * [1_2](/Stray/1_2)
+    * [FaustDSP](/Stray/1_2/FaustDSP)
       * Contains a single Faust .dsp File
-    * [JuceProject](/Stray/1_1/JuceProject)
+    * [JuceProject](/Stray/1_2/JuceProject)
       * Contains a Juce Project File (.jucer) and the Juce project source code (.cpp)
-    * [builds](/Stray/1_1/builds)
+    * [builds](/Stray/1_2/builds)
       * Contains a standalone (.app) and VST (.vst3) version of Stray
       * These builds are compatible only with MacOS
 * [WaveGenerationTests](/WaveGenerationTests)
