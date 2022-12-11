@@ -1,25 +1,25 @@
 # Building the Code
 
-Navigate to the [Stray](/Stray/) folder. Select the version of the project you want to build ([Most Recent](/Stray/1_1/)) and navigate to that directory. Each version's directory contains the following:
+Navigate to the [Stray](/Stray/) folder. Select the version of the project you want to build ([Most Recent](/Stray/1_2/)) and navigate to that directory. Each version's directory contains the following:
 * FaustDSP
-  * A single Faust ([.dsp](/Stray/1_1/FaustDSP/stray_1_1.dsp)) file 
+  * A single Faust ([.dsp](/Stray/1_2/FaustDSP/stray_1_2.dsp)) file 
 * JuceProject
-  * Source code ([.cpp](/Stray/1_1/JuceProject/FaustPluginProcessor.cpp)) and a Juce project ([.jucer](/Stray/1_1/JuceProject/stray_1_1.jucer)) file
+  * Source code ([.cpp](/Stray/1_2/JuceProject/FaustPluginProcessor.cpp)) and a Juce project ([.jucer](/Stray/1_2/JuceProject/stray_1_2.jucer)) file
 * builds
-  * Contains Standalone ([.app](/Stray/1_1/builds/stray_1_1.app)) and VST ([.vst3](/Stray/1_1/builds/stray_1_1.vst3)) 
+  * Contains Standalone ([.app](/Stray/1_2/builds/stray_1_2.app)) and VST ([.vst3](/Stray/1_2/builds/stray_1_2.vst3)) 
   * Currently the provided files are exclusive to Mac. If you wish to use the VST on a Windows or Linux machine, follow the "Building the Juce Project" instructions below
     
 ## Running the Faust (.dsp) file
 Faust can be used in a variety of ways ([Faust Downloads](https://faust.grame.fr/downloads/)), but the easiest and fastest way is through the [online IDE](https://faustide.grame.fr)
 1. Open the [IDE](https://faustide.grame.fr)
    * Chrome is currently the only browser that supports the MIDI functionality 
-2. Upload [stray_X_X.dsp](/Stray/1_1/FaustDSP/stray_1_1.dsp)
+2. Upload [stray_X_X.dsp](/Stray/1_2/FaustDSP/stray_1_2.dsp)
 3. Click Run to compile the code
 
 That's all that is required to run the Faust project! Any connected midi controllers can be chosen from the menu on the top right and the instrument is fully usable within the browser. 
 
 ## Building the Juce Project
-1. Download BOTH the [.cpp](/Stray/1_1/JuceProject/FaustPluginProcessor.cpp) and [.jucer](/Stray/1_1/JuceProject/stray_1_1.jucer) file, place them in the same folder. 
+1. Download BOTH the [.cpp](/Stray/1_2/JuceProject/FaustPluginProcessor.cpp) and [.jucer](/Stray/1_2/JuceProject/stray_1_2.jucer) file, place them in the same folder. 
 2. Download [JUCE](https://juce.com/get-juce)
    * Place your JUCE folder in your Home Directory 
 3. Open Projucer
@@ -30,7 +30,7 @@ That's all that is required to run the Faust project! Any connected midi control
       * Ex: On my system:
         * Path To JUCE: `/Users/jclark/JUCE`
         * Path To JUCE Modules: `/Users/jclark/JUCE/modules`
-5. Click "Open Existing Project" and select [stray_X_X.jucer](/Stray/1_1/JuceProject/stray_1_1.jucer)
+5. Click "Open Existing Project" and select [stray_X_X.jucer](/Stray/1_2/JuceProject/stray_1_2.jucer)
 6. Navigate to the Modules tab and ensure that for every module "Use Global Path" is selected
 7. Select your Exporter and click Open in IDE
 8. Choose your build settings, and run the code
