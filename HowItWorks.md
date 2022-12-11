@@ -45,3 +45,12 @@ The interpolation draws a line connecting all of our points, but this signal req
 * Envelope
   * A Standard ADSR is used to shape the envelope of the sound
   
+# Visual Examples
+![noLFO1](https://user-images.githubusercontent.com/105126223/206880949-83d40dc1-e005-4520-9294-799fed00107b.png)
+
+* The image above represents the points that make up Stray's waveform. The two red dots represent the beginning and end of the table, which are fixed at 0. The four purple dots are the points that the user has control over (P0 to P3 from left to right). The X coordinates for the user controlled points are 1-4 from left to right. 
+
+![singleLFO1](https://user-images.githubusercontent.com/105126223/206881207-682201bf-87d8-4522-ac07-d7a715c859e0.png)
+
+* The image above is an example snapshot of the waveform created by the interpolation process (the red line) with a single active LFO on P1. P1 will move between -1 and 1 in the pattern of whatever LFO shape is selected. The speed of this motion is determined by the Point Oscillation Frequency. 
+* The Resulting waveform will be dependent on the amplitude of the each Point when 'x' (the ramping phasor object) crosses the Point's X value. In this image, when the phasor was outputing a value of 2, P1 had an amplitude value of ~0.8. 
