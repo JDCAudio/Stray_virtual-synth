@@ -1,7 +1,7 @@
 # What Is 'Stray'?
 A typical wavetable synthesizer will have a table of predetermined amplitude values which are read through at the appropriate speed relative to the frequency of the current note, resulting in an audible signal. Stray functions similarly, reading through a table of values, but the amplitude values are not predefined. Instead, these values are modulated with one of four LFO shapes.
 
-For more information on how Stray works click [here](/HowItWorks.md)
+For an in depth explanation of how Stray works, click [here](/HowItWorks.md)
 
 # Sound Demo
 -- Sound Demo Video to be added here --
