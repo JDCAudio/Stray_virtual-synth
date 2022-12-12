@@ -4,7 +4,7 @@ A typical wavetable synthesizer will have a table of predetermined amplitude val
 For an in depth explanation of how Stray works, click [here](/HowItWorks.md)
 
 # Downloading Stray
-Builds provided in this repository are compatible only with MacOS. For a standalone or VST version compatible with Windows or Linux, see directions for [Building the Juce Project](/BuildInfo.md#building-the-juce-project). Alternatively, to run and test the code within a browser, see [here](/BuildInfo.md#running-the-faust-dsp-file) how to run the Faust (.dsp) file.
+Builds provided in this repository are compatible only with MacOS. For a standalone or VST version compatible with Windows or Linux, see [here](/BuildInfo.md) For guides to [running the .dsp File](/BuildInfo.md#running-the-faust-dsp-file), [building the Juce project](/BuildInfo.md#building-the-juce-project), and [Converting from Faust to Juce](/BuildInfo.md#how-to-get-from-faust-to-juce).
 
 * For MacOS
   * Download the latest release [here](https://github.com/JDCAudio/Stray_virtual-synth/releases/tag/v1.2)
