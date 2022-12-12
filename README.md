@@ -7,8 +7,7 @@ For an in depth explanation of how Stray works, click [here](/HowItWorks.md)
 Builds provided in this repository are compatible only with MacOS. For a standalone or VST version compatible with Windows or Linux, see directions for [Building the Juce Project](/BuildInfo.md#building-the-juce-project). Alternatively, to run and test the code within a browser, see [here](/BuildInfo.md#running-the-faust-dsp-file) how to run the Faust (.dsp) file.
 
 * For MacOS
-  * Download the latest standalone version [here](/Stray/1_2/builds/stray_1_2.app)
-  * Download the latest VST3 version [here](/Stray/1_2/builds/stray_1_2.vst3)
+  * Download the latest release [here](https://github.com/JDCAudio/Stray_virtual-synth/releases/tag/v1.2)
   
 # Sound Demo
 https://user-images.githubusercontent.com/105126223/206938867-823c1570-6684-4d7a-98ff-3f649ca423b0.mp4
