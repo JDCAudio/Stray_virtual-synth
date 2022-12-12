@@ -11,6 +11,7 @@ Builds provided in this repository are compatible only with MacOS. For a standal
   
 # Sound Demo
 https://user-images.githubusercontent.com/105126223/206938867-823c1570-6684-4d7a-98ff-3f649ca423b0.mp4
+* Sound Demo using Version 1.2 of Stray. Midi coming from Arturia Beatstep. 
 
 # Structure of this Repository
 * [FaustTests](/FaustTests)
