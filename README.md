@@ -11,7 +11,7 @@ Builds provided in this repository are compatible only with MacOS. For a standal
   * Download the latest VST3 version [here](/Stray/1_2/builds/stray_1_2.vst3)
   
 # Sound Demo
--- Sound Demo Video to be added here --  
+https://user-images.githubusercontent.com/105126223/206938867-823c1570-6684-4d7a-98ff-3f649ca423b0.mp4
 
 # Structure of this Repository
 * [FaustTests](/FaustTests)
